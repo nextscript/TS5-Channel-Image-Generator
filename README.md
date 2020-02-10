@@ -1,6 +1,5 @@
 # TS5-Channel-Image-Generator
 
-![Demo1](example.png)
 ![Demo2](demo_ch.png)
 
 _______________________________________________________________________________
