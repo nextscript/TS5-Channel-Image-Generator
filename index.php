@@ -38,10 +38,10 @@ session_start();
 	$start = 38;
 
 	if($_GET['sub'] >= '1'){
-		for($i=0; $i < $zahl; $i++) {
+		for($i=1; $i <= $zahl; $i++) {
 			if($_GET['img'] == ''){
 			}else{
-				echo '<b>'.$_GET['sub'].'x Sub Channel '.( $i + 1 ).': </b><br>';
+				echo '<b>'.$_GET['sub'].'x Sub Channel '.( $i ).': </b><br>';
 				$url = '&type=png&sub='.$_GET['sub'].'&img='.$_GET['img'].'';
 				echo '<a href="?conv='. $start * $i .'" target="_blank"><img src="img.php?i='. $start * $i .'&type=png&sub='.$_GET['sub'].'&img='.$_GET['img'].'"></a><p>';
 			}
@@ -71,10 +71,10 @@ session_start();
 			}
 		}
 	}else{
-		for($i=0; $i < $zahl; $i++) {
+		for($i=1; $i <= $zahl; $i++) {
 			if($_GET['img'] == ''){
 			}else{
-				echo '<b>Channel '.( $i + 1 ).': </b><br>';
+				echo '<b>Channel '.( $i ).': </b><br>';
 				$url = '&type=png&sub='.$_GET['sub'].'&img='.$_GET['img'].'';
 				$_SESSION['demo'] = $url;
 
