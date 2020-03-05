@@ -152,7 +152,7 @@ session_start();
 		}
 	}
 	if($_GET['conv'] != ''){
-		$_SESSION['imga'] = 'https://dev.nextuparea.com/img.php?i='.$_GET['conv'].''.$_SESSION['demo'];
+		$_SESSION['imga'] = 'http://'.$_SERVER['SERVER_NAME'].'/img.php?i='.$_GET['conv'].''.$_SESSION['demo'];
 		header('Location: convert.php');
 	}
 
