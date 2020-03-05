@@ -1,5 +1,3 @@
 <?
-    #with https:// or http:// please
-	$sitename = '';
-	
+	$sitename = 'https://ts5x.cf';
 ?>
