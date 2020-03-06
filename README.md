@@ -2,6 +2,8 @@
 
 ![Demo2](demo_ch.png)
 
+# What make this?
+You can upload a picture (ONLY png), the script will create the appropriate snippets for your Teamspeak channels and if you click on them you get the url.
 _______________________________________________________________________________
 
 This Script ONLY work for the New Teamspeak Client.
