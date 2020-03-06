@@ -2,7 +2,7 @@
 
 ![Demo2](demo_ch.png)
 
-# what does this script do?
+# What does this script do?
 You can upload a picture (ONLY png), the script will create the appropriate snippets for your Teamspeak channels and if you click on them you get the url.
 _______________________________________________________________________________
 
