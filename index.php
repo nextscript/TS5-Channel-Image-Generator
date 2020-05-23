@@ -20,7 +20,7 @@ session_start();
 include 'config.php';
 	echo '<hr><h1>TS 5 Channel Image Generator ᴮᴱᵀᴬ</h1><hr>';
 
-	echo '<div class="row">
+	echo '<div class="row"> 
 	  <div class="col-md-4"><h3><u>Before:</u></h3><img src="example.png"  width=100%><p></div>
 	  <div class="col-md-4"><h3><u>After:</u></h3><img src="demo_ch.png"  width=100%><p></div>
 	  <div class="col-md-4"></div>
