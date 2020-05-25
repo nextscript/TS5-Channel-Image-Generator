@@ -13,7 +13,7 @@
 	session_start();
 	$client_id="3a3cc7bda67e684";
 	$pvars   = $_SESSION['imga'];
-	$timeout = 31;
+	$timeout = 30;
 	$curl = curl_init();
 		curl_setopt($curl, CURLOPT_URL, 'https://api.imgur.com/3/image.json');
 		curl_setopt($curl, CURLOPT_TIMEOUT, $timeout);
