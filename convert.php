@@ -7,13 +7,13 @@
 	<div class="row">
 	<div class="col-md-1"></div>
 	<div class="col-md-10">
-	
+
 <?
 	echo '<hr><h1>TS 5 Channel Image Generator ᴮᴱᵀᴬ</h1><hr>';
 	session_start();
 	$client_id="3a3cc7bda67e684";
 	$pvars   = $_SESSION['imga'];
-	$timeout = 30;
+	$timeout = 31;
 	$curl = curl_init();
 		curl_setopt($curl, CURLOPT_URL, 'https://api.imgur.com/3/image.json');
 		curl_setopt($curl, CURLOPT_TIMEOUT, $timeout);
@@ -29,8 +29,8 @@
 		header('Location: '.$url.'');
 	}else{
 		echo "<h2>There's a Problem</h2>";
-		echo $pms['data']['error'];  
-	} 
+		echo $pms['data']['error'];
+	}
 
 ?>
 </div>
