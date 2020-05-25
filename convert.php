@@ -9,6 +9,7 @@
 	<div class="col-md-10">
 
 <?
+
 	echo '<hr><h1>TS 5 Channel Image Generator ᴮᴱᵀᴬ</h1><hr>';
 	session_start();
 	$client_id="3a3cc7bda67e684";
